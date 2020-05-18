@@ -21,7 +21,7 @@ public class Wallet {
     @NotBlank(message = "Name cann't be blank")
     @Size(min = 2,max = 30)
     private String name;
-    @Size(min = 2,max = 30)
+    @Size(max = 30)
     private String accountNumber;
     @Size(max = 100)
     private String description;

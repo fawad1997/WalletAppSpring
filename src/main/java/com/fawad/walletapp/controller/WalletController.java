@@ -16,6 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/wallet")
+@CrossOrigin
 public class WalletController {
     @Autowired
     private WalletService walletService;
